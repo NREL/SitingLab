@@ -1,1 +1,1 @@
-# Welcome to SitingLab!
+# Welcome to Siting Lab!
