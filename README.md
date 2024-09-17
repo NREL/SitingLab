@@ -55,9 +55,8 @@ like `conda` or  `mamba` in this case. The steps below assume you have installed
 
    3) Install Siting Lab Tutorial dependencies using `pip`: `pip install .`
 
-[Test](#running-the-notebooks)
 
-### Running the notebooks  {#running-the-notebooks}
+### Running the notebooks
 
 Once your environment is installed and activate, you can run the following command to
 launch the jupyter server:
