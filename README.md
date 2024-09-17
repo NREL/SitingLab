@@ -30,9 +30,9 @@ commands from the root directory of the Siting Lab Tutorial code repository you 
 
 #### Using Pixi (recommended)
 
-We use [pixi](https://pixi.sh/latest/) to manage cross-platform compatible
-Siting Lab Tutorial environments. This tool allows developers to install libraries and
-applications in a reproducible way. We keep a version-controlled ``pixi.lock``
+We use [pixi](https://pixi.sh/latest/) to manage cross-platform Siting Lab Tutorial
+environments. This tool allows developers to install libraries and dependencies in a
+compatible and reproducible way. We keep a version-controlled ``pixi.lock``
 in the repository to allow locking with the full requirements tree so that
 behaviors and results can easily be reproduced.
 
