@@ -2,8 +2,8 @@
 
 
 This repository contains a collection of user-friendly tutorials and guides for working with the Siting Lab data
-within the context of the reV model. The python code examples demonstrate the creation and transformation of
-Siting Lab data into reV compliant format as well as working with the reV model inputs and outputs.
+within the context of the `reV` model. The python code examples demonstrate the creation and transformation of
+Siting Lab data into `reV` compliant format as well as working with the `reV` model inputs and outputs.
 
 
 # Getting Started
@@ -26,7 +26,7 @@ required dependencies and can launch jupyter for you. All instructions below ass
 commands from the root directory of the Siting Lab Tutorial code repository you just downloaded.
 
 
-### Installation
+### Environment Setup
 
 #### Using Pixi (recommended)
 
