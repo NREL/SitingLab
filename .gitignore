@@ -1,6 +1,11 @@
 # Dynamic version
 _version.py
 
+# Data files
+*.csv
+*.h5
+*.tif
+
 # config, status, and test files
 *config*.json
 *status*.json
