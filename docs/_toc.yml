@@ -1,0 +1,20 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: README
+parts:
+  - caption: reV tutorials
+    chapters:
+    - glob: notebooks/*
+# parts:
+#   - caption: Name of Part 1
+#     chapters:
+#     - file: path/to/part1/chapter1
+#     - file: path/to/part1/chapter2
+#       sections:
+#       - file: path/to/part1/chapter2/section1
+# - file: notebooks/temporal_profiles
+# - file: markdown
+# - file: notebooks
+# - file: markdown-notebooks
