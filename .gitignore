@@ -5,6 +5,7 @@ _version.py
 *.csv
 *.h5
 *.tif
+/data/
 
 # config, status, and test files
 *config*.json
