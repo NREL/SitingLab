@@ -4,9 +4,12 @@
 format: jb-book
 root: README
 parts:
+  - caption: reVX tutorials
+    chapters:
+    - glob: notebooks/reVX/*
   - caption: reV tutorials
     chapters:
-    - glob: notebooks/*
+    - glob: notebooks/reV/*
   - caption: About
     chapters:
     - file: bibliography
