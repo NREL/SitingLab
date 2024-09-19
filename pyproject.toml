@@ -44,6 +44,7 @@ dependencies = [
   "matplotlib>=3.9.0",
   "numpy~=1.24.4",
   "plotly>=5.24.1",
+  "pyproj>=3.6.1",
 ]
 
 [project.optional-dependencies]
@@ -111,6 +112,9 @@ version_file = "_version.py"
 channels = ["conda-forge", "anaconda", "main"]
 platforms = ["osx-arm64", "linux-64"]
 
+[tool.pixi.system-requirements]
+linux = "4.18"
+
 [tool.pixi.pypi-dependencies]
 NREL-SitingLab = { path = ".", editable = true }
 NREL-rex = ">=0.2.85"
@@ -132,6 +136,7 @@ jupyterlab = ">=4.0"
 matplotlib = ">=3.9.0"
 numpy= "~=1.24.4"
 plotly = ">=5.24.1"
+pyproj = ">=3.6.1"
 
 [tool.pixi.feature.dev.dependencies]
 build = ">=0.5"
