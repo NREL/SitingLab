@@ -39,9 +39,10 @@ dependencies = [
   "jupyter>=1.0.0",
   "jupyterlab>=4.0",
   "NREL-rex>=0.2.85",
-  "NREL-reV>=0.8.9",
-  "NREL-reVX>=0.3.57",
+  "NREL-reV>=0.9.4",
+  "NREL-reVX>=0.3.59",
   "matplotlib>=3.9.0",
+  "numpy~=1.24.4",
   "plotly>=5.24.1",
 ]
 
@@ -113,8 +114,8 @@ platforms = ["osx-arm64", "linux-64"]
 [tool.pixi.pypi-dependencies]
 NREL-SitingLab = { path = ".", editable = true }
 NREL-rex = ">=0.2.85"
-NREL-reV = ">=0.8.9"
-NREL-reVX = ">=0.3.57"
+NREL-reV = ">=0.9.4"
+NREL-reVX = ">=0.3.59"
 
 [tool.pixi.environments]
 default = { solve-group = "default" }
@@ -129,6 +130,7 @@ python = ">=3.10"
 jupyter = ">=1.0.0"
 jupyterlab = ">=4.0"
 matplotlib = ">=3.9.0"
+numpy= "~=1.24.4"
 plotly = ">=5.24.1"
 
 [tool.pixi.feature.dev.dependencies]
