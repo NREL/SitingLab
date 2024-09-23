@@ -26,7 +26,7 @@ This set of tutorials helps introduce you to [`reVX`](https://github.com/NREL/re
 
 - [Working with GeoTIFFs](reVX/01_geotiff_tutorial.ipynb): Introduction to the ``Geotiff`` handler, which provides a simple interface to load, extract, and write various information to and from GeoTIFF files.
 - [GeoTIFFs to reV HDF5 Files](reVX/02_layered_h5_tutorial.ipynb): Introduction to the ``LayeredH5`` handler, which provides a simple interface to create and write to an HDF5 file formatted for `reV` exclusion data.
-
+- [Extracting a Composite Exclusion Layer](reVX/03_composite_mask_tutorial.ipynb): Tutorial on combining multiple exclusion layers into one composite exclusion layer.
 
 ### reV
 
