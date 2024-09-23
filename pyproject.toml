@@ -128,6 +128,7 @@ doc = { features = ["doc"], solve-group = "default" }
 test = { features = ["test"], solve-group = "default" }
 
 [tool.pixi.tasks]
+build = { cmd = "make book", cwd = "docs"}
 
 [tool.pixi.dependencies]
 python = ">=3.10"
