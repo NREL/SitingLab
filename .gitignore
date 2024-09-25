@@ -5,6 +5,8 @@ _version.py
 *.csv
 *.h5
 *.tif
+*.json
+*.gpkg
 /data/
 
 # config, status, and test files
