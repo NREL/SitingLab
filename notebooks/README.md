@@ -33,4 +33,5 @@ This set of tutorials helps introduce you to [`reVX`](https://github.com/NREL/re
 
 This set of tutorials helps introduce you to [`reV`](https://github.com/NREL/reV/) tools. The tutorials are listed by recommended order:
 
+- [reV Resource File Format](reV/01_resource_file_tutorial.ipynb): Explanation of reV resource file structure example of creating a new reV-compliant resource file.
 - [Supply Curve + Temporal Profiles](reV/02_temporal_profiles.ipynb): Demonstrates how to link Supply Curve outputs with temporal profiles.
