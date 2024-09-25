@@ -33,4 +33,4 @@ This set of tutorials helps introduce you to [`reVX`](https://github.com/NREL/re
 
 This set of tutorials helps introduce you to [`reV`](https://github.com/NREL/reV/) tools. The tutorials are listed by recommended order:
 
-- [Supply Curve + Temporal Profiles](reV/01_temporal_profiles.ipynb): Demonstrates how to link Supply Curve outputs with temporal profiles.
+- [Supply Curve + Temporal Profiles](reV/02_temporal_profiles.ipynb): Demonstrates how to link Supply Curve outputs with temporal profiles.
