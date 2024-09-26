@@ -4,7 +4,7 @@
 title: NREL Siting Lab Tutorials
 author: The NREL Geospatial Data Science Group
 copyright: "2024"
-# logo: logo.png
+logo: SitingLab.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
