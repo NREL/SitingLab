@@ -7633,9 +7633,9 @@ packages:
   requires_python: '>=3.8'
 - kind: pypi
   name: nrel-sitinglab
-  version: 0.1.dev71+g6cf8105.d20240925
+  version: 0.1.dev84+g3717ec3.d20240926
   path: .
-  sha256: 16c688d511f7463fb0f58cd4d0ab680e1abc57f1f2e7f9d019580de83bcf3abe
+  sha256: 95f96716c01be9945ddfd6210dfe04846e41d5bb88fb7585216864ca25728fca
   requires_dist:
   - h5py>=3.11.0
   - jupyter>=1.0.0
