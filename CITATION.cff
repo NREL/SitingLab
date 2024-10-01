@@ -1,0 +1,129 @@
+cff-version: 1.2.0
+title: Siting Lab Tutorials
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - family-names: Pinchuk
+    given-names: Pavlo
+    affiliation: National Renewable Energy Laboratory
+    orcid: 'https://orcid.org/0000-0003-4736-4728'
+  - family-names: Lopez
+    given-names: Anthony
+    affiliation: National Renewable Energy Laboratory
+    orcid: 'https://orcid.org/0000-0002-5006-1675'
+  - family-names: Williams
+    given-names: Travis
+    affiliation: National Renewable Energy Laboratory
+    orcid: 'https://orcid.org/0000-0003-0973-1865'
+  - family-names: Igwe
+    given-names: Victor
+    affiliation: National Renewable Energy Laboratory
+repository-code: 'https://github.com/NREL/SitingLab'
+url: 'https://data.openei.org/siting_lab'
+abstract: >-
+  The Siting Lab Tutorials repository contains a collection
+  of user-friendly tutorials and guides for working with the
+  Siting Lab data within the context of the reV model. The
+  python code examples demonstrate the creation and
+  transformation of Siting Lab data into reV compliant
+  format as well as working with the reV model inputs and
+  outputs.
+keywords:
+  - Energy Analysis
+  - reV
+  - Siting Lab
+  - Supply Curve
+  - siting
+  - utility-scale
+  - capacity
+  - generation
+  - cost of energy
+  - cost of transmission
+  - renewable energy
+  - solar energy
+  - wind energy
+license: BSD-3-Clause
+version: 1.0.0
+date-released: '2024-10-01'
+references:
+  - authors:
+      - family-names: Lopez
+        given-names: Anthony
+        affiliation: National Renewable Energy Laboratory
+        orcid: "https://orcid.org/0000-0002-5006-1675"
+      - family-names: Pinchuk
+        given-names: Pavlo
+        affiliation: National Renewable Energy Laboratory
+        orcid: "https://orcid.org/0000-0003-4736-4728"
+      - family-names: Gleason
+        given-names: Michael
+        affiliation: National Renewable Energy Laboratory
+      - family-names: Cole
+        given-names: Wesley
+        affiliation: National Renewable Energy Laboratory
+        orcid: "https://orcid.org/0000-0002-9194-065X"
+      - family-names: Mai
+        given-names: Trieu
+        affiliation: National Renewable Energy Laboratory
+        orcid: "https://orcid.org/0000-0003-1751-3892"
+      - family-names: Williams
+        given-names: Travis
+        affiliation: National Renewable Energy Laboratory
+        orcid: "https://orcid.org/0000-0003-0973-1865"
+      - family-names: Roberts
+        given-names: Owen
+        affiliation: National Renewable Energy Laboratory
+        orcid: "https://orcid.org/0000-0002-8945-3967"
+      - family-names: Rivers
+        given-names: Marie
+        affiliation: National Renewable Energy Laboratory
+      - family-names: Bannister
+        given-names: Mike
+        affiliation: National Renewable Energy Laboratory
+      - family-names: Thomson
+        given-names: Sophie-Min
+        affiliation: National Renewable Energy Laboratory
+        orcid: "https://orcid.org/0009-0005-9966-3887"
+      - family-names: Zuckerman
+        given-names: Gabe
+        affiliation: National Renewable Energy Laboratory
+        orcid: "https://orcid.org/0000-0002-4500-2662"
+      - family-names: Sergi
+        given-names: Brian
+        affiliation: National Renewable Energy Laboratory
+        orcid: "https://orcid.org/0000-0002-3453-9878"
+    title: "Solar Photovoltaics and Land-Based Wind Technical Potential and Supply Curves for the Contiguous United States (2023 Edition)"
+    type: report
+    doi: 10.2172/2283517
+  - authors:
+      - name: "Geospatial Data Science, NREL"
+    title: "United States Utility-Scale PV Supply Curves 2023"
+    type: data
+    doi: 10.25984/2428989
+  - authors:
+      - name: "Geospatial Data Science, NREL"
+    title: "United States Land-based Wind Supply Curves 2023"
+    type: data
+    doi: 10.25984/2428990
+  - authors:
+      - name: "Geospatial Data Science, NREL"
+    title: "Airport and Heliport Setbacks"
+    type: data
+    doi: 10.25984/2441167
+  - authors:
+      - name: "Geospatial Data Science, NREL"
+    title: "Next Generation Weather Radar (NEXRAD) Setback (4-km)"
+    type: data
+    doi: 10.25984/2441168
+  - authors:
+      - name: "Geospatial Data Science, NREL"
+    title: "Wind Turbine Oil and Gas Pipeline Setbacks: Ordinances (2022) and Extrapolated Trends, 115 Hub Height 170 Rotor Diameter"
+    type: data
+    doi: 10.25984/2441187
+  - authors:
+      - name: "Geospatial Data Science, NREL"
+    title: "Wind Turbine Structure Setbacks: Ordinances (2022) and Extrapolated Trends, 115 Hub Height 170 Rotor Diameter"
+    type: data
+    doi: 10.25984/2441180
