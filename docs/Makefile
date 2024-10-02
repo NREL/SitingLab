@@ -9,6 +9,10 @@ help:
 
 clean:
 	rm -rf _build
+	rm -rf notebooks/reVX/.gaps
+	rm -f notebooks/reV/sample_wtk.h5
+	rm -f notebooks/reVX/*.tif
+	rm -f notebooks/reVX/*.h5
 
 install:
 	jupyter-book install ./
