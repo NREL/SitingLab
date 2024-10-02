@@ -1,5 +1,7 @@
 # Welcome Siting Lab Tutorials!
 
+![Static Badge](https://img.shields.io/badge/SWR--24--95_%E2%80%9CSiting%20Lab%E2%80%9D-blue?label=NREL)
+
 
 This repository contains a collection of user-friendly tutorials and guides for working with the Siting Lab data
 within the context of the `reV` model. The python code examples demonstrate the creation and transformation of
