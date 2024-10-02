@@ -10,6 +10,7 @@ logo: SitingLab.png
 # See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: cache
+  cache: ".jupyter_cache/"
   timeout: 300
 
 # Define the name of the latex output file for PDF builds
