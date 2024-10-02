@@ -23,7 +23,7 @@ jobs:
       - name: Cache executed notebooks
         uses: actions/cache@v3
         with:
-          path: _build/.jupyter_cache
+          path: docs/_build/.jupyter_cache
           key: jupyter-book-cache-${{ hashFiles('pyproject.toml') }}
 
       - name: Build docs
@@ -34,37 +34,11 @@ jobs:
           cache: true
       - run: pixi run -e doc build
 
-      # - name: Update apt-get
-      #   run: "sudo apt-get update"
-
-
-      # - name: Setup Python
-      #   uses: actions/setup-python@v5
-      #   with:
-      #     python-version: '3.12'
-      #     cache: 'pip' # caching pip dependencies
-
-      # - name: Install Repo
-      #   run: python3 -m pip install '.[doc]'
-
-      # - name: Install Pandoc
-      #   uses: r-lib/actions/setup-pandoc@v2
-
-      # - name: Convert Markdown mermaid directive to MyST mermaid directive
-      #   run: find . -type f -name "*.md" -exec sed -i 's/```mermaid/```{mermaid}/g' {} +
-
-      # - name: Build document
-      #   run: |
-      #     cd docs
-      #     make latexpdf
-
-      # Upload the book's HTML as an artifact
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+      - name: Upload HTML as artifact
+        uses: actions/upload-pages-artifact@3.0.1
         with:
           path: "docs/_build/html"
 
-      # Deploy the book's HTML to GitHub Pages
-      - name: Deploy to GitHub Pages
+      - name: Deploy HTML to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2

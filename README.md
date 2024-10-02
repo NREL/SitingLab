@@ -1,5 +1,6 @@
 # Welcome Siting Lab Tutorials!
 
+[![Release Documentation](https://github.com/NREL/SitingLab/actions/workflows/docs.yml/badge.svg)](https://nrel.github.io/SitingLab)
 ![Static Badge](https://img.shields.io/badge/SWR--24--95_%E2%80%9CSiting%20Lab%E2%80%9D-blue?label=NREL)
 
 
@@ -10,16 +11,8 @@ Siting Lab data into `reV` compliant format as well as working with the `reV` mo
 
 # Getting Started
 
-There are several ways to interactively access the tutorial notebooks in this repository.
-
-## Online
-
-Instructions coming soon!
-
-## Local
-
-To run the tutorial notebooks locally, you should first grab a copy of the repository
-by cloning it from GitHub:
+To interactively access the tutorial notebooks in this repository,
+first  grab a copy of the repository by cloning it from GitHub:
 
     $ git clone git@github.com:NREL/SitingLab.git
 

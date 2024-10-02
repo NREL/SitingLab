@@ -65,7 +65,7 @@ test = [
 
 [project.urls]
 Homepage = "https://data.openei.org/siting_lab"
-# Documentation = "https://readthedocs.org"
+Documentation = "https://nrel.github.io/SitingLab/"
 Repository = "https://github.com/NREL/SitingLab"
 
 [tool.ruff]
