@@ -17,13 +17,14 @@ first  grab a copy of the repository by cloning it from GitHub:
     $ git clone git@github.com:NREL/SitingLab.git
 
 Before running any of the notebook tutorials, you should set up a Python environment that contains all the
-required dependencies and can launch jupyter for you. All instructions below assume you are executing the
-commands from the root directory of the Siting Lab Tutorial code repository you just downloaded.
+required dependencies and can launch jupyter for you.
 
+## Environment Setup
 
-### Environment Setup
+All instructions below assume you are executing the commands from the root directory
+of the Siting Lab Tutorial code repository you just downloaded.
 
-#### Using Pixi (recommended)
+### Using Pixi (recommended)
 
 We use [pixi](https://pixi.sh/latest/) to manage cross-platform Siting Lab Tutorial
 environments. This tool allows developers to install libraries and dependencies in a
@@ -37,7 +38,7 @@ command in the root directory of the Siting Lab Tutorial code repository:
     $ pixi shell
 
 
-#### Using Pip
+### Using Pip
 
 You can install all the packages required for Siting Lab Tutorials using Python's
 native package installer `pip`. We strongly recommend using an environment manager
@@ -51,7 +52,7 @@ like `conda` or  `mamba` in this case. The steps below assume you have installed
    3) Install Siting Lab Tutorial dependencies using `pip`: `pip install .`
 
 
-### Running the notebooks
+## Running the notebooks
 
 Once your environment is installed and activate, you can run the following command to
 launch the jupyter server:
