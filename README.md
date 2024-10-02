@@ -4,8 +4,8 @@
 ![Static Badge](https://img.shields.io/badge/SWR--24--95_%E2%80%9CSiting%20Lab%E2%80%9D-blue?label=NREL)
 
 
-This repository contains a collection of user-friendly tutorials and guides for working with the Siting Lab data
-within the context of the `reV` model. The python code examples demonstrate the creation and transformation of
+This repository contains a collection of user-friendly tutorials and guides for working with the [Siting Lab](https://data.openei.org/siting_lab)
+data within the context of the `reV` model. The python code examples demonstrate the creation and transformation of
 Siting Lab data into `reV` compliant format as well as working with the `reV` model inputs and outputs.
 
 
