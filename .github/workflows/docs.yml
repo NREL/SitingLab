@@ -34,8 +34,14 @@ jobs:
           cache: true
       - run: pixi run -e doc build
 
+      - name: Fix permissions
+        run: |
+          chmod -c -R +rX "docs/_build/" | while read line; do
+            echo "::warning title=Invalid file permissions automatically fixed::$line"
+          done
+
       - name: Upload HTML as artifact
-        uses: actions/upload-pages-artifact@v3.0.1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: "docs/_build/html"
 
