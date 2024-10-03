@@ -1,4 +1,4 @@
-# Welcome Siting Lab Tutorials!
+# Welcome to Siting Lab Tutorials!
 
 [![Release Documentation](https://github.com/NREL/SitingLab/actions/workflows/docs.yml/badge.svg)](https://nrel.github.io/SitingLab)
 ![Static Badge](https://img.shields.io/badge/SWR--24--95_%E2%80%9CSiting%20Lab%E2%80%9D-blue?label=NREL)
