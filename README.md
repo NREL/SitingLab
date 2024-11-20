@@ -12,7 +12,7 @@ Siting Lab data into `reV` compliant format as well as working with the `reV` mo
 # Getting Started
 
 To interactively access the tutorial notebooks in this repository,
-first  grab a copy of the repository by cloning it from GitHub:
+first grab a copy of the repository by cloning it from GitHub:
 
     $ git clone git@github.com:NREL/SitingLab.git
 

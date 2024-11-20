@@ -4,7 +4,6 @@
 title: NREL Siting Lab Tutorials
 author: The NREL Geospatial Data Science Group
 copyright: "2024"
-logo: SitingLab.png
 exclude_patterns: [_build, .jupyter_cache, Thumbs.db, .DS_Store, "**.ipynb_checkpoints"]
 
 # Force re-execution of notebooks on each build.
