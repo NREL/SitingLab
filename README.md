@@ -2,6 +2,7 @@
 
 [![Release Documentation](https://github.com/NREL/SitingLab/actions/workflows/docs.yml/badge.svg)](https://nrel.github.io/SitingLab)
 ![Static Badge](https://img.shields.io/badge/SWR--24--95_%E2%80%9CSiting%20Lab%E2%80%9D-blue?label=NREL)
+[![Pixi Badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/prefix-dev/pixi/main/assets/badge/v0.json)](https://pixi.sh)
 
 
 This repository contains a collection of user-friendly tutorials and guides for working with the [Siting Lab](https://data.openei.org/siting_lab)
