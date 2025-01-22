@@ -38,6 +38,8 @@ command in the root directory of the Siting Lab Tutorial code repository:
 
     $ pixi run jupyter lab
 
+Once the server starts, you can navigate to the URL shown on the terminal and access
+any notebook tutorial you wish!
 
 ### Using Pip
 
@@ -52,10 +54,7 @@ like `conda` or  `mamba` in this case. The steps below assume you have installed
 
    3) Install Siting Lab Tutorial dependencies using `pip`: `pip install .`
 
-
-## Running the notebooks
-
-Once your environment is installed and activate, you can run the following command to
+Once your environment is installed and activated, you can run the following command to
 launch the jupyter server:
 
     $ jupyter lab
