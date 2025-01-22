@@ -36,7 +36,7 @@ behaviors and results can easily be reproduced.
 To use pixi, simply install it using the link above and then run the following
 command in the root directory of the Siting Lab Tutorial code repository:
 
-    $ pixi shell
+    $ pixi run jupyter lab
 
 
 ### Using Pip
